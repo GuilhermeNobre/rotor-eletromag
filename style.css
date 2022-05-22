@@ -67,7 +67,7 @@ img {
 }
 
 .image-style {
-    padding-bottom: 5rem;
+    padding-bottom: 6.5rem;
 }
 
 .display-grid {
@@ -136,7 +136,7 @@ img {
     margin-bottom: 1rem;
 }
 
-#corrente, #forca-rotor {
+#corrente, #forca-rotor, #pot-bobinas, #pot-rotor, #pot-out-motor, #efic-motor {
     color: #fbff00;
     font-weight: bolder;
 }
