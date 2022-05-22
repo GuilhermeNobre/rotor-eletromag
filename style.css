@@ -8,7 +8,7 @@
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
 /* Track */
 ::-webkit-scrollbar-track {
@@ -54,7 +54,7 @@ button:hover {
 }
 
 h1 {
-    color: black;
+    color: rgb(255, 255, 255);
     align-items: center;
     text-align: center;
     font-weight: bolder;
@@ -63,7 +63,7 @@ h1 {
 
 
 h2 {
-    color:black;
+    color:rgb(255, 255, 255);
     align-items: center;
     text-align: center;
 }
@@ -167,4 +167,30 @@ img {
         margin: auto;
         width: 60%;
     }
+
+    .label-input-button {
+        width: 100px;
+        padding: 2px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        margin-right: 200px;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    .image-style {
+        padding-bottom: 0rem;
+    }
+
+    .gap{
+        text-align: left;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding-left: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    
 }
