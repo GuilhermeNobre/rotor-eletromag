@@ -1,0 +1,154 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --scrollbar-fg-color: #50565c;
+    --scrollbar-hover-fg-color: #60666c;
+}
+
+body {
+    background-color: #f19a3e;
+}
+
+button {
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    margin-left: 6rem;
+    background-color: rgb(0, 37, 107); /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(17, 87, 218);
+    color: rgb(255, 255, 255); 
+}
+
+h1 {
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+h2 {
+    color:black;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+}
+
+img {
+    /* padding-bottom: 50px; */
+    padding-bottom: 3rem;
+}
+
+
+.item-header { 
+    margin-top: 50px;
+}
+
+.image-style {
+    padding-bottom: 5rem;
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+}
+
+.results {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    background-color:#542344;
+    color: white;
+    border-radius: 4px;
+}
+
+.gap{
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.label-input {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 
+    'head'
+    'body';
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.label-input-button {
+    width: 100px;
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    
+}
+
+.text-input {
+    text-align: center;
+    margin: 5px;
+}
+
+.gap-label {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#corrente, #forca-rotor {
+    color: #fbff00;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px){
+    .display-grid {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        margin: auto;
+        width: 60%;
+    }
+}

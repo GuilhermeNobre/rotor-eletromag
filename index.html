@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    <h1 class = "item-header">Resolução de motor</h1>
+    <h2 class = "item-header">O motor de corrente contínua está ligado
+    em parelo <br>com as bombinas de campo magnético do estator, ou seja, em shunt, defina</h2>
+
+    <div class="display-grid">
+        <div class="image-style">
+            <img src="./img/img1.png">
+        </div>
+        <div class="gap-label">
+            <div class="label-input">
+                <div class="text-input">
+                    <span>Resistência das bobinas de campo (Ω): </span>
+                    <input type="number" id="resist-bomb">
+                </div> 
+            </div>
+            <br>
+            <div class="label-input">
+                <div class="text-input">
+                    <span>Resistência do rotor apresentado (Ω): </span>
+                    <input type="number" id="resist-roto">
+                </div> 
+            </div>
+            <br>
+            <div class="label-input">
+                <div class="text-input">
+                    <span>Corrente de entrada de motor (A): </span>
+                    <input type="number" id="corrent-moto">
+                </div> 
+            </div>
+            <br>
+            <div class="label-input">
+                <div class="text-input">
+                    <span>Valor de tensão da fontes (V): </span>
+                    <input type="number" id="tensao-moto">
+                </div> 
+            </div>
+            <br>
+            <div class="label-input-button">
+                  <button onclick='calc_data()'>CALCULE</button>
+            </div>
+        </div>
+    </div>
+    <div class="results">
+        RESULTADOS
+        <div class="gap">
+            <div>
+                a) A corrente no rotor : <span id="corrente"></span>
+            </div>
+            <div>
+                b) A força eletromotriz (fem - &) induzida no rotor: <span id="forca-rotor"></span>
+            </div>
+            <div>
+                c) As potências dissipadas nas bobinas de campo: <span id="pot-bobinas"></span>
+            </div>
+            <div>
+                d) As potências dissipadas no rotor: <span id="pot-rotor"></span>
+            </div>
+            <div>
+                e) A potência de saída do motor: <span id="pot-out-motor"></span>
+            </div>
+            <div>
+                f) A eficiência do motor: <span id="efic-motor"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
