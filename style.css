@@ -5,9 +5,24 @@
     box-sizing: border-box;
 }
 
-:root{
-    --scrollbar-fg-color: #50565c;
-    --scrollbar-hover-fg-color: #60666c;
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f19a3e; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #be7323; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #74430f; 
 }
 
 body {
